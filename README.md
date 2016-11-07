@@ -4,17 +4,18 @@ Toy simulation of shifting outputs, modeling the symbiotic relationship between 
     (for Game Theory and Applications (CMPS/TIM/ECON 166A) project, Fall 2016)
 
 Files:
-    tree.py -
+
+    tree.py 
         defines tree class, viable moves, and equations that determine its responses and shifting satisfaction
         
-    fungus.py -
+    fungus.py 
         defines fungus class, viable moves, and equations that determine its responses and shifting satisfaction
         
-    externalconditions.py -
+    externalconditions.py 
         defines artificial climate/environment changes that impact output of each party/satisfaction levels.
         Occurs based on an rng, more can be added.
         
-    runsimulation.py -
+    runsimulation.py 
         runs each set of equations until they produce the same contribution (output) 20 times in a row, demonstrating
         stability. this number can be changed at will!
 
