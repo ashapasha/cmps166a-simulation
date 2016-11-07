@@ -34,7 +34,8 @@ class Fungus:
             return 0
         else:
             self.isAlive = False
-            return 100
+            self.percent_minerals_given = 100
+            return self.get_contribution()
 
     def satisfied(self, amount_given):
         if self.happiness < 10:
